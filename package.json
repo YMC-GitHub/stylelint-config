@@ -1,0 +1,33 @@
+{
+  "name": "stylelint-config-yemiancheng",
+  "version": "1.0.0",
+  "description": "shareable stylelint config",
+  "files": [
+    "package.json",
+    "stylelint.config.js",
+    "rules"
+  ],
+  "main": "stylelint.config.js",
+  "unpkg": "stylelint.config.js",
+  "keywords": [
+    "stylelint",
+    "config",
+    "yemiancheng",
+    "shareable"
+  ],
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymc-github/stylelint-config.git"
+  },
+  "author": "yemiancheng <ymc.github@gmail.com> (https://github.com/ymc-github)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ymc-github/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/ymc-github/stylelint-config#readme",
+  "dependencies": {},
+  "devDependencies": {
+  }
+}
