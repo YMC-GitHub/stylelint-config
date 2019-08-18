@@ -1,6 +1,6 @@
 ### download as local module
 ```sh
-npm install --save-dev stylelint-config-yemiancheng
+npm install --save-dev stylelint stylelint-config-yemiancheng
 ```
 
 ### make a configurantion file
@@ -10,7 +10,9 @@ echo "module.exports = {extends: ['stylelint-config-yemiancheng']};" > stylelint
 ```
 
 ### for linting scss file
-Add "extends": "stylelint-config-yemiancheng/scss.js" to your stylelint.config.js
+01.install lib `stylelint-scss`
+02.Add "extends": "stylelint-config-yemiancheng/scss.js" to your stylelint.config.js
 ```sh
+npm install --save-dev stylelint stylelint-scss stylelint-config-yemiancheng
 echo "module.exports = {extends: ['stylelint-config-yemiancheng/scss.js']};" > stylelint.config.js
 ```
