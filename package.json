@@ -5,7 +5,8 @@
   "files": [
     "package.json",
     "stylelint.config.js",
-    "rules"
+    "rules",
+    "scss.js"
   ],
   "main": "stylelint.config.js",
   "unpkg": "stylelint.config.js",
